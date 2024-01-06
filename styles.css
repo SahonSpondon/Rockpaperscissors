@@ -1,0 +1,76 @@
+body{
+    font-family: "Permanent Marker" , cursive;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+}
+h1{
+    font-size: 3.5rem;
+    color: aliceblue;
+}
+.choices{
+    margin-bottom: 30px;
+}
+.choices button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: hsl(200, 100%, 50%);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    align-items: center;
+}
+.choices button:hover{
+    background-color: hsl(238, 73%, 65%);
+    border-color: hsl(238, 73%, 65%) ;
+}
+#playerDisplay, #computerDisplay{
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+#resultDisplay{
+    font-size: 3.5rem;
+    margin: 20px 0;
+    color: aliceblue;
+}
+.scoreDisplay{
+    font-size: 2rem;
+    color: aliceblue;
+}
+.greenText, #playerScoreDisplay{
+    color: hsl(130, 84%, 54%);
+}
+.redText, #computerScoreDisplay{
+    color: hsl(0, 84%, 60%);
+}
+footer{
+    color: rgb(207, 230, 250);
+    align-items: center;
+    font-size: 40px;
+    margin-top: 70px;
+}
+html{
+    scroll-behavior: smooth;
+}
+button{
+	background-color:#caf2ff;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+    font-family: "Permanent Marker" , cursive;
+    margin-top: 2rem;
+}
+button:hover{
+	background-color: hsl(238, 73%, 65%);
+	border: 2px solid hsl(238, 73%, 65%);
+	cursor: pointer;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock - Paper - Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/1176488540385841253/1193185174192668743/imgo.png?ex=65abcb49&is=65995649&hm=2aebc21388e19bffa7ebeac847b8de0a54ee15850d5fa6cc758987346ead5b83&"
+</head>
+<body>
+
+    <h1>Rock - Paper - Scissors</h1>
+    
+    <div class="choices">
+        <button onclick="playGame('rock')">👊🏻</button>
+        <button onclick="playGame('paper')">✋🏻</button>
+        <button onclick="playGame('scissors')">✂</button>
+    </div>
+
+    <div id="playerDisplay">PLAYER: </div>
+    <div id="computerDisplay">COMPUTER: </div>
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay">Player Score: 
+        <span id="playerScoreDisplay">0</span>
+    </div>
+
+    <div class="scoreDisplay">Computer Score: 
+        <span id="computerScoreDisplay">0</span>
+    </div>
+    <button class="button" onclick="window.location.reload();">Restart</button>
+    <footer>Made By Spondon!</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
